@@ -1,0 +1,261 @@
+
+*{
+    box-sizing: border-box;
+}
+
+/* Example for your Title */
+.navbar{
+    position:sticky;
+    display: flex;
+    justify-content: end;
+    background:rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+
+    
+
+}
+.nav-box{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    justify-content: center;
+}
+.nav-but{
+    background-color:black;
+    color:#FF9933;
+    border-radius: 6px;
+    border: none;
+    height: 50px;
+    width: 75px;
+}
+
+.nav-but:hover{
+    background-color:#FF9933;
+    color: black;
+}
+
+
+.indexheader {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:2px 250px;
+    height: 300px;
+    
+}
+#header1 {
+    font-family: 'kalam', cursive, sans-serif;
+    color: #FF9933; /* Saffron */
+    text-shadow: 2px 20px 4px rgba(0,0,0,0.5);
+    font-size: 8rem;
+    text-align: center;
+    margin-top: 10px;
+}
+h1,h2,h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 5px 4px rgba(0,0,0,0.5);
+}
+
+#second_segment{
+    font-size: 50px;
+}
+
+#indexbody{
+    background-image:linear-gradient(to right,#181818,#FF4B2B);
+}
+
+img{
+    margin: auto;
+    display: block;
+    max-inline-size: 100%;
+    margin-block: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}
+#logo {
+    margin-right:0%;
+    margin-left: 0%;
+    max-width: 20%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.two_column_layout {
+    display: grid;
+    gap: 10%;
+    @media(width>720px){
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+#img_1{
+    margin: 30px;
+}
+
+#parafonts{
+    text-align: center;
+    
+}
+
+
+.wfont{
+    color:white;
+    margin: 80px;
+
+}
+
+footer{
+    text-align:left;
+}
+
+.all_buttons{
+    background-image:linear-gradient(to right,#181818,#FF4B2B);
+    color:white;
+    padding: 10px;
+
+}
+.all_buttons:hover{
+    background-image:linear-gradient(to left,#181818,#FF4B2B);
+}
+.all_buttons:after{
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+.headerm {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:20px 250px;
+    height: 500px;
+    width:auto;
+    
+}
+
+.headline {
+    font-family: 'kalam', cursive, sans-serif;
+    color: #FF9933; /* Saffron */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-size: 5rem;
+    text-align: center;
+}
+
+#giridurgbody {
+    background-image: url("../images/hills.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Stretches image to fill the width/height */
+    background-attachment: fixed; /* Keeps image from scrolling away */
+    background-position: center; /* Centers the focus of the hills */
+    
+    /* Optional: ensures the body is at least as tall as the screen */
+    min-height: 100vh; 
+    margin: 0;
+}
+
+#jaldurgbody{
+    background-image: url("../images/underocean.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Stretches image to fill the width/height */
+    background-attachment: fixed; /* Keeps image from scrolling away */
+    background-position: center; /* Centers the focus of the hills */
+    
+    /* Optional: ensures the body is at least as tall as the screen */
+    min-height: 100vh; 
+    margin: 0;
+}
+
+#bhuikotbody{
+    background-image: url("../images/land.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Stretches image to fill the width/height */
+    background-attachment: fixed; /* Keeps image from scrolling away */
+    background-position: center; /* Centers the focus of the hills */
+    
+    /* Optional: ensures the body is at least as tall as the screen */
+    min-height: 100vh; 
+    margin: 0;
+}
+
+
+#Giri{
+    color: white;
+    display: grid;
+    @media(width>720px){
+        grid-template-columns: 1fr 1fr;
+    }
+    font-size: 20px;
+    gap: 0.35%;
+    padding-left: 15%;
+
+}
+#Giri li::marker{
+    content: "🚩";
+}
+#jald{
+    color:white;
+    padding-inline: 100px;
+    font-size: 25px;
+}
+
+#jal{
+    color: white;
+    display: grid;
+    @media(width>720px){
+        grid-template-columns: 1fr 1fr;
+    }
+    font-size: 20px;
+    gap: 0.35%;
+    padding-left: 15%;
+
+}
+#jal li::marker{
+    content: "🚩";
+}
+
+#bhui{
+    color: white;
+    display: grid;
+    @media(width>720px){
+        grid-template-columns: 1fr 1fr;
+    }
+    font-size: 20px;
+    gap: 0.35%;
+    padding-left: 15%;
+
+}
+#bhui li::marker{
+    content: "🚩";
+}
+
+#afoot{
+    position:relative;
+    bottom:0;
+    width: 100%; 
+    padding-top: 100px;
+    color: aquamarine;   
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+}
+
+#abt{
+    background-color: black;
+    text-align: center;
+}
+#aboutid{
+    color:orange
+}
