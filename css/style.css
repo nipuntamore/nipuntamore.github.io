@@ -227,7 +227,7 @@ footer{
 }
 
 #bhui{
-    color: black;
+    color: white;
     display: grid;
     @media(width>720px){
         grid-template-columns: 1fr 1fr;
@@ -265,4 +265,5 @@ a:hover{
     color:orange
 
 }
+
 
