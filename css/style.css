@@ -38,10 +38,15 @@
 
 .indexheader {
     display: flex;
-    justify-content:space-between;
+    flex-direction: row;
+    justify-content:center;
     align-items: center;
-    padding:2px 250px;
-    height: 300px;
+    width: 100%;
+    padding:20px 10px;
+    height: auto;
+    min-height: 150px;
+    box-sizing: border-box;
+    overflow: hidden;
     
 }
 #header1 {
@@ -258,4 +263,5 @@ a:hover{
 }
 #aboutid{
     color:orange
+
 }
