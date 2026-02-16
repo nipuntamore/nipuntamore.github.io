@@ -1,1 +1,2 @@
 # nipuntamore.github.io
+The simple website made using html/css for beginner project purpose, it redirects to some information about Chhatrapati Shivaji Maharaj's Historical forts which are existing on the internet. It is my First front end project deployed on github.
